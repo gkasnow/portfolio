@@ -1,0 +1,534 @@
+@charset "utf-8";
+
+/* 작업상세페이지 */
+
+/* 전체제어 */
+ body {
+    font-family: 'Noto Sans KR',HelveticaNeue-Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕', sans-serif;
+}
+
+header {
+    top: 0;
+    left: 0;
+}
+
+/* 내용 ----------------- */
+
+/* 메인 */
+#yg .main {
+    width: 96.875%;
+    height: 49.010vw;
+    border-bottom: 0.052vw solid #000;
+    margin: 0 auto;
+}
+#yg .main > .main_line {
+    height: 49.010vw;
+    width: 0.052vw;
+    background-color: #000;
+    text-indent: -9999px;
+    margin-left: 53.906%;
+    /* margin-top: 2vw; */
+}
+#yg .main_box1 {
+    width: 96.875%;
+    height: 47.865vw;
+    border: 0.677vw solid #000;
+    position: absolute;
+    top: 1.563vw; left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+#yg .main_box1 h2 {
+    margin: 0;
+    font-size: 1.563vw;
+}
+#yg .main_box1 h2 a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+#yg .main_box1 .box1 {
+    /* overflow: hidden; */
+    display: flex;
+    width: 90.021%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    margin-top: 9.010vw;
+}
+#yg .main_box1 .box1 img {
+    width: 65.573%;
+    /* float: left; */
+}
+#yg .main_box1 .s_txt_box {
+    /* float: right; */
+    margin-bottom: 5.555vw;
+    width: 55.656%;
+}
+#yg .main_box1 .s_txt_box > h3:nth-of-type(1) {
+    font-size: 1.563vw;
+    margin: 0;
+    margin-bottom: 1.027vw;
+}
+#yg .main_box1 .s_txt_box > h3:nth-of-type(2) {
+    font-size: 0.990vw;
+    margin: 0;
+    margin-top: 0.908vw;
+    font-weight: 400;
+    line-height: 1.3;
+}
+#yg .main_box1 .s_txt_box .title {
+    display: flex;
+    align-items: center;
+    /* width: 27.656vw; */
+    justify-content: space-between;
+}
+#yg .main_box1 .s_txt_box .title h3 {
+    font-size: 3.073vw;
+    margin: 0;
+}
+#yg .main_box1 .s_txt_box .title .line {
+    width: 12.146vw;
+    height: 0.156vw;
+    background-color: #000;
+    text-indent: -9999px;
+}
+#yg .main_box1 .s_txt_box .txt1 {
+    margin-top: 2.865vw;
+    margin-bottom: 0.938vw;
+}
+#yg .main_box1 .s_txt_box .txt1, #yg .main_box1 .s_txt_box .txt2 {
+    display: flex;
+    /* width: 27.656vw; */
+    justify-content: space-between;
+    border-bottom: 0.052vw solid #c2c2c2;
+}
+#yg .main_box1 .s_txt_box .txt1 h3, #yg .main_box1 .s_txt_box .txt2 h3 {
+    font-size: 1.094vw;
+    margin: 0;
+    padding-bottom: 0.625vw;
+    font-weight: 400;
+}
+#yg .main_box1 .txt3 {
+    width: 90.021%;
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+#yg .main_box1 .txt3 .period_txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.490vw;
+}
+#yg .main_box1 .txt3 .period_txt .period_line {
+    width: 2vw;
+    height: 0.052vw;
+    background-color: #000;
+    text-indent: -9999px;
+    margin-right: 0.855vw;
+}
+#yg .main_box1 .txt3 h3 {
+    font-size: 0.885vw;
+    font-weight: 400;
+    margin: 0;
+}
+#yg .main_box1 .txt3 > h3 {
+    margin-bottom: 3.490vw;
+} 
+/* hover */
+#yg .main_box1 h2 a:hover {
+    color: #616161;
+}
+
+/* 프로젝트 목표 */
+#yg .goal_box2 {
+    width: 96.875%;
+    border-bottom: 0.052vw solid #000;
+    text-align: center;
+    margin: 0 auto;
+}
+#yg .goal_box2 h3 {
+    font-size: 1.302vw;
+    margin: 5.573vw 0 3.594vw 0
+}
+#yg .goal_box2 p {
+    font-size: 1.146vw;
+    margin: 0;
+}
+#yg .goal_box2 p:nth-of-type(1) {
+    margin-bottom: 1.615vw;
+}
+#yg .goal_box2 p:nth-of-type(2) {
+    margin-bottom: 5.573vw;
+}
+
+/* 자세한 설명 */
+#yg .txt_box3 {
+    width: 96.875%;
+    border-bottom: 0.052vw solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+#yg .txt_box3 > .line1, #yg .txt_box3 > .line2 {
+    width: 0.052vw;
+    height: 100vw;
+    background-color: #000;
+    text-indent: -9999px;
+}
+#yg .txt_box3 > .line1 {
+    margin-left: 12.888vw;
+    float: left;
+}
+#yg .txt_box3 > .line2 {
+    margin-left: 34.755vw;
+}
+#yg .txt_sbox3 {
+    position: absolute;
+    top: 0; left: 0;
+}
+#yg .txt_sbox3 .puble, #yg .txt_sbox3 .keyword, #yg .txt_sbox3 .color, #yg .txt_sbox3 .font {
+    overflow: hidden;
+    margin-left: 8.438vw;
+    padding-top: 7.656vw;
+}
+#yg .txt_sbox3 .puble {
+    padding-top: 5.573vw;
+}
+#yg .txt_sbox3 h3 {
+    font-size: 1.302vw;
+    float: left;
+    font-weight: 700;
+    margin: 0;
+}
+#yg .txt_sbox3 ul {
+    float: left;
+    margin: 0;
+    margin-left: 1.250vw;
+    font-size: 1.146vw;
+    padding: 0;
+}
+#yg .txt_sbox3 .puble .js {
+    float: none;
+    margin-top: 1.875vw;
+}
+#yg .txt_sbox3 ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+#yg .txt_sbox3 ul li {
+    position: relative;
+    padding-left: 1vw;
+    margin-bottom: 1.875vw;
+}
+#yg .txt_sbox3 ul li::before {
+    content: "";
+    position: absolute;
+    top: 0.595vw;
+    left: 0;
+    width: 0.155vw;
+    height: 0.155vw;
+    border-radius: 50%;
+    background-color: #000;
+}
+#yg .txt_sbox3 .js li::before {
+    content: "";
+    position: absolute;
+    top: 0.595vw;
+    left: 0;
+    width: 0.313vw;
+    height: 0.052vw;
+    border-radius: 0;
+    background-color: #000;
+}
+#yg .txt_sbox3 .puble ul li a {
+    display: inline-block;
+    border: 0.052vw solid #000; 
+    padding: 0.222vw 0.555vw;
+    text-decoration: none;
+    color: #000;
+}
+#yg .txt_sbox3 .keyword ul {
+    /* width: 38.833vw; */
+}
+#yg .txt_sbox3 .keyword ul li {
+    line-height: 1.5;
+    display: flex;
+}
+#yg .txt_sbox3 .keyword ul li span {
+    font-weight: 700;
+    padding-right: 1.458vw;
+}
+#yg .txt_sbox3 .colorchart_box {
+    float: left;
+    margin-left: 1.250vw;
+    font-size: 1.146vw;
+}
+#yg .txt_sbox3 .col {
+    color: #0546ee;
+    margin-right: 3.750vw;
+}
+#yg .txt_sbox3 .sub_title {
+    width: 22.156vw;
+}
+#yg .txt_sbox3 .puble ul li:nth-of-type(6)::before {
+    top: 11%;
+}
+/* hover */
+#yg .txt_sbox3 .puble ul li a:hover {
+    color: #0546ee;
+}
+
+/* 색감 */
+#yg .color .colorchart_box {
+    display: flex;
+}
+#yg .color .colorchart1, #yg .color .colorchart2, #yg .color .colorchart3 {
+    width: 8.438vw;
+    height: 8.438vw;
+    border-radius: 50%;
+    background-color: #ef1414;
+    color: #fff;
+    line-height: 8.438vw;
+    text-align: center;
+}
+#yg .color .colorchart1 {
+    background-color: #000;
+    color: #fff;
+} 
+#yg .color .colorchart2 {
+    background-color: #0546ee;
+}
+#yg .color .colorchart1, #yg .color .colorchart2 {
+    margin-right: 4.531vw;
+}
+
+/* 폰트 */
+
+#yg .font li:nth-of-type(3) {
+    font-family: 'Montserrat',HelveticaNeue-Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕', sans-serif;
+}
+#yg .font li:nth-of-type(4) {
+    font-family: 'Lush',HelveticaNeue-Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕';
+}
+#yg .font li:nth-of-type(2)::before {
+    background-color: transparent;
+}
+#yg .font li:nth-of-type(3)::before {
+    background-color: transparent;
+}
+#yg .font li:nth-of-type(4)::before {
+    background-color: transparent;
+}
+
+/* 웹사이트바로가기 */
+#yg .site a {
+    width: 79vw;
+    height: 6.021vw;
+    background-color: #000;
+    color: #fff;
+    margin: 2.865vw auto 5vw;
+    text-align: center;
+    line-height: 6.021vw;
+    text-decoration: none;
+    display: block;
+    font-size: 1.302vw;
+    
+}
+/* hover */
+#yg .site a:hover {
+    background-color: #1d1d1d;
+}
+
+/* ****** 태블릿/모바일 ******* */
+@media screen and (max-width:768px) {
+    header {
+        position: relative;
+        top: 7vw;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+    }
+    .display {
+        top: -150%;
+    }
+    header #click1, header #click2 {
+        display: none;
+    }
+
+    /* 메인 */
+    #yg .main {
+        height: auto;
+        border: none;
+        width: auto;
+    }
+    #yg .main > .main_line {
+        display: none;
+    }
+    #yg .main_box1 {
+        height: auto;
+        position: static;
+        transform: none;
+        margin: 1.563vw auto;
+        border: 1.333vw solid #000;
+    }
+    #yg .main_box1 h2 {
+        font-size: 5.333vw;
+
+    }
+    #yg .main_box1 .box1 {
+        display: block;
+        text-align: center;
+        margin-bottom: 18vw;
+        width: 94.021%;
+        margin-top: 40vw;
+    }
+    #yg .main_box1 .box1 img {
+        margin: 0 auto;
+        margin-left: 4vw;
+        width: 100%;
+    }
+    #yg .main_box1 .s_txt_box {
+        margin: 0 auto;
+        width: 97%;
+        margin-top: 15vw;
+    }
+    #yg .main_box1 .s_txt_box .title h3 {
+        font-size: 9.333vw;
+    }
+    #yg .main_box1 .s_txt_box > h3:nth-of-type(1) {
+        text-align: left;
+        font-size: 4.800vw;
+    }
+    #yg .main_box1 .s_txt_box > h3:nth-of-type(2) {
+        font-size: 3.000vw;
+        text-align: left;
+    }
+    #yg .main_box1 .s_txt_box .title .line {
+        width: 35.146vw;
+        height: 0.800vw;
+    }
+    #yg .main_box1 .s_txt_box .txt1 h3, #yg .main_box1 .s_txt_box .txt2 h3 {
+        font-size: 3.467vw;
+    }
+    #yg .main_box1 .s_txt_box .txt1 {
+        margin-top: 6vw;
+        margin-bottom: 1.938vw;
+    }
+    #yg .main_box1 .s_txt_box .txt1 h3, #yg .main_box1 .s_txt_box .txt2 h3 {
+        padding-bottom: 1.225vw;
+    }
+    #yg .main_box1 .txt3 {
+        position: static;
+        transform: none;
+        margin: 0 auto;
+    }
+    #yg .main_box1 .txt3 .period_txt {
+        margin-bottom: 5.800vw;
+    }   
+    #yg .main_box1 .txt3 h3 {
+        font-size: 2.667vw;
+    }
+
+    /* 모바일,태블릿 프로젝트 목표 */
+    #yg .goal_box2 {
+        border-bottom: 0.267vw solid #000;
+    }
+    #yg .goal_box2 h3 {
+        font-size: 4.800vw;
+        margin: 16.533vw 0 6.400vw 0;
+    }
+    #yg .goal_box2 p {
+        font-size: 3.733vw;
+        line-height: 1.5;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #yg .goal_box2 p:nth-of-type(2) {
+        margin-bottom: 16.533vw;
+    }
+
+    /* 모바일,태블릿 자세한 설명 */
+    #yg .txt_box3 {
+        border: none;
+    }
+    #yg .txt_box3 > .line1, #yg .txt_box3 > .line2 {
+        display: none;
+    }
+    #yg .txt_sbox3 .puble, #yg .txt_sbox3 .keyword, #yg .txt_sbox3 .color, #yg .txt_sbox3 .font {
+        width: 90.021%;
+        margin: 0 auto;
+    }
+    #yg .txt_sbox3 {
+        position: static;
+        padding-bottom: 11.733vw;
+    }
+    #yg .txt_sbox3 h3 {
+        font-size: 4.800vw;
+    }
+    #yg .txt_sbox3 ul {
+        font-size: 4vw;
+        margin-top: 10.933vw;
+    }
+    #yg .txt_sbox3 .puble, #yg .txt_sbox3 .keyword, #yg .txt_sbox3 .color, #yg .txt_sbox3 .font {
+        padding-top: 21.600vw;
+    }
+    #yg .txt_sbox3 .puble {
+        padding-top: 11.733vw;
+    }
+    #yg .txt_sbox3 ul li {
+        padding-left: 2vw;
+        margin-bottom: 3.175vw;
+        line-height: 1.5;
+    }
+    #yg .txt_sbox3 .keyword ul li {
+        display: block;
+        line-height: 1.7;
+    }
+    #yg .txt_sbox3 ul li::before {
+        top: 2.650vw;
+        width: 0.455vw;
+        height: 0.455vw;
+    }
+    #yg .txt_sbox3 .js li::before {
+        top: 2.650vw;
+        width: 0.813vw;
+        height: 0.267vw;
+    }
+    #yg .txt_sbox3 .puble .js {
+        margin-top: 3.175vw;
+    }
+    #yg .txt_sbox3 .puble ul li:nth-of-type(6)::before {
+        top: 8%;
+    }
+    #yg .txt_sbox3 .sub_title {
+        width: 36.156vw;
+    }
+    /* 모바일,태블릿 색감 */
+    #yg .txt_sbox3 .colorchart_box {
+        font-size: 2.667vw;
+        margin-top: 10.933vw;
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+    #yg .color .colorchart1, #yg .color .colorchart2, #yg .color .colorchart3 {
+        width: 17.600vw;
+        height: 17.600vw;
+        line-height: 17.600vw;
+    }
+    #yg .color .colorchart1, #yg .color .colorchart2 {
+        margin-right: 8.531vw;
+    }
+    /* 모바일,태블릿 웹페이지 바로가기 */
+    #yg .site a {
+        width: 90.021%;
+        height: 13.733vw;
+        margin: 2.865vw auto 15vw;
+        line-height: 13.733vw;
+        font-size: 3.733vw;
+    }
+}

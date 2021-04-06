@@ -1,0 +1,535 @@
+@charset "utf-8";
+
+/* 작업상세페이지 */
+
+/* 전체제어 */
+ body {
+    font-family: 'Noto Sans KR',HelveticaNeue-Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕', sans-serif;
+}
+
+header {
+    top: 0;
+    left: 0;
+}
+
+/* 내용 ----------------- */
+
+/* 메인 */
+#lush .main {
+    width: 96.875%;
+    height: 49.010vw;
+    border-bottom: 0.052vw solid #000;
+    margin: 0 auto;
+}
+#lush .main > .main_line {
+    height: 49.010vw;
+    width: 0.052vw;
+    background-color: #000;
+    text-indent: -9999px;
+    margin-left: 53.906%;
+    /* margin-top: 2vw; */
+}
+#lush .main_box1 {
+    width: 96.875%;
+    height: 47.865vw;
+    border: 0.677vw solid #000;
+    position: absolute;
+    top: 1.563vw; left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+#lush .main_box1 h2 {
+    margin: 0;
+    font-size: 1.563vw;
+}
+#lush .main_box1 h2 a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+#lush .main_box1 .box1 {
+    /* overflow: hidden; */
+    display: flex;
+    width: 90.021%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    margin-top: 9.010vw;
+}
+#lush .main_box1 .box1 img {
+    width: 65.573%;
+    /* float: left; */
+}
+#lush .main_box1 .s_txt_box {
+    /* float: right; */
+    margin-bottom: 5.555vw;
+    width: 55.656%;
+}
+#lush .main_box1 .s_txt_box > h3:nth-of-type(1) {
+    font-size: 1.563vw;
+    margin: 0;
+    margin-bottom: 1.027vw;
+}
+#lush .main_box1 .s_txt_box > h3:nth-of-type(2) {
+    font-size: 0.990vw;
+    margin: 0;
+    margin-top: 0.908vw;
+    font-weight: 400;
+    line-height: 1.3;
+}
+#lush .main_box1 .s_txt_box .title {
+    display: flex;
+    align-items: center;
+    /* width: 27.656vw; */
+    justify-content: space-between;
+}
+#lush .main_box1 .s_txt_box .title h3 {
+    font-size: 3.073vw;
+    margin: 0;
+}
+#lush .main_box1 .s_txt_box .title .line {
+    width: 16.146vw;
+    height: 0.156vw;
+    background-color: #000;
+    text-indent: -9999px;
+}
+#lush .main_box1 .s_txt_box .txt1 {
+    margin-top: 2.865vw;
+    margin-bottom: 0.938vw;
+}
+#lush .main_box1 .s_txt_box .txt1, #lush .main_box1 .s_txt_box .txt2 {
+    display: flex;
+    /* width: 27.656vw; */
+    justify-content: space-between;
+    border-bottom: 0.052vw solid #c2c2c2;
+}
+#lush .main_box1 .s_txt_box .txt1 h3, #lush .main_box1 .s_txt_box .txt2 h3 {
+    font-size: 1.094vw;
+    margin: 0;
+    padding-bottom: 0.625vw;
+    font-weight: 400;
+}
+#lush .main_box1 .txt3 {
+    width: 90.021%;
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+#lush .main_box1 .txt3 .period_txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.490vw;
+}
+#lush .main_box1 .txt3 .period_txt .period_line {
+    width: 2vw;
+    height: 0.052vw;
+    background-color: #000;
+    text-indent: -9999px;
+    margin-right: 0.855vw;
+}
+#lush .main_box1 .txt3 h3 {
+    font-size: 0.885vw;
+    font-weight: 400;
+    margin: 0;
+}
+#lush .main_box1 .txt3 > h3 {
+    margin-bottom: 3.490vw;
+} 
+/* hover */
+#lush .main_box1 h2 a:hover {
+    color: #616161;
+}
+
+/* 프로젝트 목표 */
+#lush .goal_box2 {
+    width: 96.875%;
+    border-bottom: 0.052vw solid #000;
+    text-align: center;
+    margin: 0 auto;
+}
+#lush .goal_box2 h3 {
+    font-size: 1.302vw;
+    margin: 5.573vw 0 3.594vw 0
+}
+#lush .goal_box2 p {
+    font-size: 1.146vw;
+    margin: 0;
+}
+#lush .goal_box2 p:nth-of-type(1) {
+    margin-bottom: 1.615vw;
+}
+#lush .goal_box2 p:nth-of-type(2) {
+    margin-bottom: 5.573vw;
+}
+
+/* 자세한 설명 */
+#lush .txt_box3 {
+    width: 96.875%;
+    border-bottom: 0.052vw solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+#lush .txt_box3 > .line1, #lush .txt_box3 > .line2 {
+    width: 0.052vw;
+    height: 100vw;
+    background-color: #000;
+    text-indent: -9999px;
+}
+#lush .txt_box3 > .line1 {
+    margin-left: 12.888vw;
+    float: left;
+}
+#lush .txt_box3 > .line2 {
+    margin-left: 34.755vw;
+}
+#lush .txt_sbox3 {
+    position: absolute;
+    top: 0; left: 0;
+}
+#lush .txt_sbox3 .puble, #lush .txt_sbox3 .keyword, #lush .txt_sbox3 .color, #lush .txt_sbox3 .font {
+    overflow: hidden;
+    margin-left: 8.438vw;
+    padding-top: 7.656vw;
+}
+#lush .txt_sbox3 .puble {
+    padding-top: 5.573vw;
+}
+#lush .txt_sbox3 h3 {
+    font-size: 1.302vw;
+    float: left;
+    font-weight: 700;
+    margin: 0;
+}
+#lush .txt_sbox3 ul {
+    float: left;
+    margin: 0;
+    margin-left: 1.250vw;
+    font-size: 1.146vw;
+    padding: 0;
+}
+#lush .txt_sbox3 .puble .js {
+    float: none;
+    margin-top: 1.875vw;
+}
+#lush .txt_sbox3 ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+#lush .txt_sbox3 ul li {
+    position: relative;
+    padding-left: 1vw;
+    margin-bottom: 1.875vw;
+}
+#lush .txt_sbox3 ul li::before {
+    content: "";
+    position: absolute;
+    top: 0.595vw;
+    left: 0;
+    width: 0.155vw;
+    height: 0.155vw;
+    border-radius: 50%;
+    background-color: #000;
+}
+#lush .txt_sbox3 .js li::before {
+    content: "";
+    position: absolute;
+    top: 0.595vw;
+    left: 0;
+    width: 0.313vw;
+    height: 0.052vw;
+    border-radius: 0;
+    background-color: #000;
+}
+#lush .txt_sbox3 .puble ul li a {
+    display: inline-block;
+    border: 0.052vw solid #000; 
+    padding: 0.222vw 0.555vw;
+    text-decoration: none;
+    color: #000;
+}
+#lush .txt_sbox3 .keyword ul {
+    /* width: 38.833vw; */
+}
+#lush .txt_sbox3 .keyword ul li {
+    line-height: 1.5;
+    display: flex;
+}
+#lush .txt_sbox3 .keyword ul li span {
+    font-weight: 700;
+    padding-right: 1.458vw;
+}
+#lush .txt_sbox3 .colorchart_box {
+    float: left;
+    margin-left: 1.250vw;
+    font-size: 1.146vw;
+}
+#lush .txt_sbox3 .col {
+    color: #ff1455;
+    margin-right: 3.750vw;
+}
+#lush .txt_sbox3 .sub_title {
+    width: 22.156vw;
+}
+#lush .txt_sbox3 .puble ul li:nth-of-type(6)::before {
+    top: 11%;
+}
+/* hover */
+#lush .txt_sbox3 .puble ul li a:hover {
+    color: #ff1455;
+}
+
+/* 색감 */
+#lush .color .colorchart_box {
+    display: flex;
+}
+#lush .color .colorchart1, #lush .color .colorchart2, #lush .color .colorchart3 {
+    width: 8.438vw;
+    height: 8.438vw;
+    border-radius: 50%;
+    background-color: #feb6ca;
+    color: #000;
+    line-height: 8.438vw;
+    text-align: center;
+}
+#lush .color .colorchart1 {
+    background-color: #000;
+    color: #fff;
+} 
+#lush .color .colorchart2 {
+    background-color: #fff;
+    border: 0.052vw solid #000;
+}
+#lush .color .colorchart1, #lush .color .colorchart2 {
+    margin-right: 4.531vw;
+}
+
+/* 폰트 */
+
+#lush .font li:nth-of-type(3) {
+    font-family: 'Montserrat',HelveticaNeue-Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕', sans-serif;
+}
+#lush .font li:nth-of-type(4) {
+    font-family: 'Lush',HelveticaNeue-Light, AppleSDGothicNeo-Light,'Malgun Gothic','맑은 고딕';
+}
+#lush .font li:nth-of-type(2)::before {
+    background-color: transparent;
+}
+#lush .font li:nth-of-type(3)::before {
+    background-color: transparent;
+}
+#lush .font li:nth-of-type(4)::before {
+    background-color: transparent;
+}
+
+/* 웹사이트바로가기 */
+#lush .site a {
+    width: 79vw;
+    height: 6.021vw;
+    background-color: #000;
+    color: #fff;
+    margin: 2.865vw auto 5vw;
+    text-align: center;
+    line-height: 6.021vw;
+    text-decoration: none;
+    display: block;
+    font-size: 1.302vw;
+    
+}
+/* hover */
+#lush .site a:hover {
+    background-color: #1d1d1d;
+}
+
+/* ****** 태블릿/모바일 ******* */
+@media screen and (max-width:768px) {
+    header {
+        position: relative;
+        top: 7vw;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+    }
+    .display {
+        top: -150%;
+    }
+    header #click1, header #click2 {
+        display: none;
+    }
+
+    /* 메인 */
+    #lush .main {
+        height: auto;
+        border: none;
+        width: auto;
+    }
+    #lush .main > .main_line {
+        display: none;
+    }
+    #lush .main_box1 {
+        height: auto;
+        position: static;
+        transform: none;
+        margin: 1.563vw auto;
+        border: 1.333vw solid #000;
+    }
+    #lush .main_box1 h2 {
+        font-size: 5.333vw;
+
+    }
+    #lush .main_box1 .box1 {
+        display: block;
+        text-align: center;
+        margin-bottom: 18vw;
+        width: 94.021%;
+        margin-top: 40vw;
+    }
+    #lush .main_box1 .box1 img {
+        margin: 0 auto;
+        margin-left: 4vw;
+        width: 100%;
+    }
+    #lush .main_box1 .s_txt_box {
+        margin: 0 auto;
+        width: 97%;
+        margin-top: 15vw;
+    }
+    #lush .main_box1 .s_txt_box .title h3 {
+        font-size: 9.333vw;
+    }
+    #lush .main_box1 .s_txt_box > h3:nth-of-type(1) {
+        text-align: left;
+        font-size: 4.800vw;
+    }
+    #lush .main_box1 .s_txt_box > h3:nth-of-type(2) {
+        font-size: 3.000vw;
+        text-align: left;
+    }
+    #lush .main_box1 .s_txt_box .title .line {
+        width: 38.146vw;
+        height: 0.800vw;
+    }
+    #lush .main_box1 .s_txt_box .txt1 h3, #lush .main_box1 .s_txt_box .txt2 h3 {
+        font-size: 3.467vw;
+    }
+    #lush .main_box1 .s_txt_box .txt1 {
+        margin-top: 6vw;
+        margin-bottom: 1.938vw;
+    }
+    #lush .main_box1 .s_txt_box .txt1 h3, #lush .main_box1 .s_txt_box .txt2 h3 {
+        padding-bottom: 1.225vw;
+    }
+    #lush .main_box1 .txt3 {
+        position: static;
+        transform: none;
+        margin: 0 auto;
+    }
+    #lush .main_box1 .txt3 .period_txt {
+        margin-bottom: 5.800vw;
+    }   
+    #lush .main_box1 .txt3 h3 {
+        font-size: 2.667vw;
+    }
+
+    /* 모바일,태블릿 프로젝트 목표 */
+    #lush .goal_box2 {
+        border-bottom: 0.267vw solid #000;
+    }
+    #lush .goal_box2 h3 {
+        font-size: 4.800vw;
+        margin: 16.533vw 0 6.400vw 0;
+    }
+    #lush .goal_box2 p {
+        font-size: 3.733vw;
+        line-height: 1.5;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #lush .goal_box2 p:nth-of-type(2) {
+        margin-bottom: 16.533vw;
+    }
+
+    /* 모바일,태블릿 자세한 설명 */
+    #lush .txt_box3 {
+        border: none;
+    }
+    #lush .txt_box3 > .line1, #lush .txt_box3 > .line2 {
+        display: none;
+    }
+    #lush .txt_sbox3 .puble, #lush .txt_sbox3 .keyword, #lush .txt_sbox3 .color, #lush .txt_sbox3 .font {
+        width: 90.021%;
+        margin: 0 auto;
+    }
+    #lush .txt_sbox3 {
+        position: static;
+        padding-bottom: 11.733vw;
+    }
+    #lush .txt_sbox3 h3 {
+        font-size: 4.800vw;
+    }
+    #lush .txt_sbox3 ul {
+        font-size: 4vw;
+        margin-top: 10.933vw;
+    }
+    #lush .txt_sbox3 .puble, #lush .txt_sbox3 .keyword, #lush .txt_sbox3 .color, #lush .txt_sbox3 .font {
+        padding-top: 21.600vw;
+    }
+    #lush .txt_sbox3 .puble {
+        padding-top: 11.733vw;
+    }
+    #lush .txt_sbox3 ul li {
+        padding-left: 2vw;
+        margin-bottom: 3.175vw;
+        line-height: 1.5;
+    }
+    #lush .txt_sbox3 .keyword ul li {
+        display: block;
+        line-height: 1.7;
+    }
+    #lush .txt_sbox3 ul li::before {
+        top: 2.650vw;
+        width: 0.455vw;
+        height: 0.455vw;
+    }
+    #lush .txt_sbox3 .js li::before {
+        top: 2.650vw;
+        width: 0.813vw;
+        height: 0.267vw;
+    }
+    #lush .txt_sbox3 .puble .js {
+        margin-top: 3.175vw;
+    }
+    #lush .txt_sbox3 .puble ul li:nth-of-type(6)::before {
+        top: 8%;
+    }
+    #lush .txt_sbox3 .sub_title {
+        width: 36.156vw;
+    }
+    /* 모바일,태블릿 색감 */
+    #lush .txt_sbox3 .colorchart_box {
+        font-size: 2.667vw;
+        margin-top: 10.933vw;
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+    #lush .color .colorchart1, #lush .color .colorchart2, #lush .color .colorchart3 {
+        width: 17.600vw;
+        height: 17.600vw;
+        line-height: 17.600vw;
+    }
+    #lush .color .colorchart1, #lush .color .colorchart2 {
+        margin-right: 8.531vw;
+    }
+    /* 모바일,태블릿 웹페이지 바로가기 */
+    #lush .site a {
+        width: 90.021%;
+        height: 13.733vw;
+        margin: 2.865vw auto 15vw;
+        line-height: 13.733vw;
+        font-size: 3.733vw;
+    }
+}
