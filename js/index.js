@@ -14,7 +14,7 @@ $(function(){
 
     // 타이핑
     const type = new Typewriter('#typewriter', {
-        strings: ['따뜻한 사람.', '배려있는 사람.','발전하는 사람.','함혜진입니다.'],//글자입력
+        strings: ['따뜻한 사람.', '배려있는 사람.','도전하는 사람.','함혜진입니다.'],//글자입력
         autoStart: true,//자동시작
         loop: true,//반복
 
@@ -64,7 +64,7 @@ $(function(){
         $('.txt6 .click').css({'left':'8.367vw','width': '8.289vw'});
     });
     $('.txt6 a:nth-of-type(3)').on('click',function(){
-        $('.txt6 h3').text('JavaScript & jQuary');
+        $('.txt6 h3').text('JavaScript & jQuery');
         $('.txt6 p').text('웹페이지의 동적인 움직임이나 이벤트를 만들 수 있으며 자바스크립트는 계속 공부중에 있습니다.');
         $('.txt6 .click').css({'left':'17.307vw','width': '13.385vw'});
     });
